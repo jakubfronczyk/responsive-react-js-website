@@ -8,7 +8,7 @@ function Hero(){
             <form>
                 <div className={styles.text}>
                     <label>Where</label>
-                    <input type="text" placeholder="Search location"/>
+                    <input className={styles.text_input} type="text" placeholder="Search location"/>
                 </div>
                 <div className={styles.from}>
                     <span className={styles.border}></span>
@@ -21,8 +21,8 @@ function Hero(){
                     <input type="date" />
                 </div>
                 <div className={styles.search_btn}>
-                    <AiOutlineSearch/>
-                    <button>Search for cars</button>
+                    <AiOutlineSearch className={styles.icon}/>
+                    <button className={styles.btn}>Search for cars</button>
                 </div>
             </form>
         </div>
