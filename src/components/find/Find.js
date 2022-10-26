@@ -24,7 +24,6 @@ function Find() {
             <div className={styles.slider_container}>
             
 <Swiper
-                // install Swiper modules
                 modules={[Navigation,Scrollbar]}
                 spaceBetween={10}
                 slidesPerView={5}
@@ -32,13 +31,13 @@ function Find() {
                 breakpoints={{
                   // when window width is >= 340px
                   340: {
-                    width: 200,
+                    width: 240,
                     slidesPerView: 1,
                   },
                   // when window width is >= 768px
                   768: {
                     width: 768,
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                   },
                   // when window width is >= 1040px
                   1040: {
